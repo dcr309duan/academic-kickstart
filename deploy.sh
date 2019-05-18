@@ -11,6 +11,7 @@ git clone -b master https://github.com/dcr309duan/dcr309duan.github.io.git deplo
 rsync -av --delete --exclude ".git" public/ deployment
 cd deployment
 git add -A
+git pull
 git commit -m "rebuilding site on `date`, commit ${TRAVIS_COMMIT} and job ${TRAVIS_JOB_NUMBER}" || true
 git push
 
