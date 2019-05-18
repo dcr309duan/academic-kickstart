@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Chengrui Duan
+name: Mlya
 
 # Username (this should match the folder name)
 authors:
@@ -14,24 +14,21 @@ role: Android developer
 
 # Organizations/Affiliations
 organizations:
-- name: Beijing University of Posts and Telecommunications
+- name: 北京邮电大学
   url: "https://www.bupt.edu.cn"
 
 # Short bio (displayed in user profile at end of posts)
 bio: 严以律己, 宽以待人 (Be strict with yourself and lenient with others)
 
 interests:
-- Artificial Intelligence
-- Adnroid Development
+- 人工智能
+- Android 开发
 
-education:
-  courses:
-  - course: Postgraduate of Information and Communication Engineering
-    institution: Beijing University of Posts and Telecommunications
-    year: 2018-now
-  - course: Bachelor of Communications Engineering
-    institution: Beijing University of Posts and Telecommunications
-    year: 2018
+# education:
+#   courses:
+#   - course: Postgraduate of Information and Communication Engineering
+#     institution: Beijing University of Posts and Telecommunications
+#     year: 2018-now
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
