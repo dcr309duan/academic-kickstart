@@ -9,22 +9,22 @@
   weight = 10
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
+  name = "博客搭建"
+  url = "post/blog"
   weight = 20
 
 [[main]]
-  name = "Projects"
-  url = "#projects"
+  name = "近期文章"
+  url = "#posts"
   weight = 30
 
 [[main]]
-  name = "Publications"
-  url = "#featured"
+  name = "算法学习"
+  url = "post/algorithm"
   weight = 40
 
 [[main]]
-  name = "Contact"
+  name = "联系我"
   url = "#contact"
   weight = 60
 
