@@ -14,14 +14,15 @@
   weight = 20
 
 [[main]]
-  name = "近期文章"
-  url = "#posts"
+  name = "算法学习"
+  url = "post/algorithm"
   weight = 30
 
 [[main]]
-  name = "算法学习"
-  url = "post/algorithm"
+  name = "近期文章"
+  url = "#posts"
   weight = 40
+
 
 [[main]]
   name = "联系我"
