@@ -23,7 +23,11 @@
   url = "#posts"
   weight = 40
 
-
+[[main]]
+  name = "全部文章"
+  url = "post/"
+  weight = 50
+  
 [[main]]
   name = "联系我"
   url = "#contact"
