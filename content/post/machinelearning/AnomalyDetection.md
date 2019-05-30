@@ -68,3 +68,50 @@ $$
    $$
 
 Anomaly if $p(x) < \varepsilon$.
+
+### Anomaly Detection System
+
+#### Training set, test set and cross valication set
+
+For example:
+
+* 10000 normal examples
+* 20 anomal examples
+
+We can split the set to
+
+* Training set: 6000 normal examples
+* Cross validation set: 2000 normal examples and 10 anomal examples.
+* Test set: 2000 normal examples and 10 anomal examples.
+
+#### Algorithm evaluation
+
+* Fit model $p(x)$ on training set ${x^{(1)}, x^{(2)}, \dots, x^{(m)}}$.
+
+* On a cross validation/test example $x$, poredict
+  
+  $$
+  y = \left\{
+  \begin{aligned}
+  1, &if\ p(x)<\varepsilon\ (anomaly)\\
+  0, &if\ p(x)\ge\varepsilon\ (normal)
+  \end{aligned}
+  \right.
+  $$
+  
+
+* Possible evaluation metrics:
+  * True positive, false positive, false negative, true negative
+  * Precision/Recall
+  * $F_1$-score
+
+* Can also use cross validation set to choose parameter $\varepsilon$.
+
+## Recommender System
+
+### Collaborative Filtering
+
+![image-20190527225028548](https://markdown-1252040768.cos.ap-beijing.myqcloud.com/2019-05-27-145029.png)
+
+![image-20190527225703645](https://markdown-1252040768.cos.ap-beijing.myqcloud.com/2019-05-27-145704.png)
+
