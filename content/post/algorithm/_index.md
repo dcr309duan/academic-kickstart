@@ -1,5 +1,15 @@
 ---
+linktitle: 算法学习
+weight: 1
+
 title: 算法学习
+
+toc: true
+menu:
+  algorithm:
+    name: 算法学习
+    weight: 1
+type: docs
 
 # View.
 #   1 = List
@@ -7,8 +17,5 @@ title: 算法学习
 #   3 = Card
 view: 1
 
-# Optional header image (relative to `static/img/` folder).
-header:
-  caption: ""
-  image: ""
+weight: 1
 ---
