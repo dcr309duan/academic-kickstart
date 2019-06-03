@@ -1,8 +1,8 @@
 ---
-title: "LargeScale"
-date: 2019-05-29T21:51:17+08:00
+title: "Notes"
+date: 2019-05-30T19:11:13+08:00
 draft: false
-math: true
+math: false
 markup: mmark
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
@@ -19,10 +19,8 @@ image:
   focal_point: ''
 ---
 
-## Stochastic (Batch) Gradient Descent
+## `string.h` 和 `strings.h` 的区别
 
-We have a very large training set gradient descent becomes a computationally very expensive procedure.
+[关于这两个头文件的讨论](https://www.cnblogs.com/xuyaowen/p/strings_h_and_string_h.html)
 
-![image-20190529220115649](https://markdown-1252040768.cos.ap-beijing.myqcloud.com/2019-05-29-140115.png)
-
-![image-20190529223353926](https://markdown-1252040768.cos.ap-beijing.myqcloud.com/2019-05-29-143354.png)
+暂时的结论是使用 `strings.h`, 暂时没有很多区别.
