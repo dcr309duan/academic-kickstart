@@ -24,3 +24,6 @@ image:
 [关于这两个头文件的讨论](https://www.cnblogs.com/xuyaowen/p/strings_h_and_string_h.html)
 
 暂时的结论是使用 `strings.h`, 暂时没有很多区别.
+
+## strtok
+
